@@ -7,7 +7,7 @@ def square_array(array)
     new_numbers << (array[count] ** 2)
     count += 1
   }
-  new_numbers
+  puts new_numbers
 end
 
 square_array(numbers)
